@@ -1,0 +1,9 @@
+Hello  World
+这一行就不是打印在屏幕上，而是打印到ps流中，即lll.txt文件中
+这一行也不是
+java.io.FileNotFoundException: src/files/asdasd.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at demo.IO流.打印流.打印字节流.Test.Test01.main(Test.Test01.java:29)

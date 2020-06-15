@@ -1,0 +1,7 @@
+这是字符打印流
+java.io.FileNotFoundException: src/files/asdasd.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at demo.IO流.打印流.打印字符流.Test.Test01.main(Test.Test01.java:18)
